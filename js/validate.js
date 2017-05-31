@@ -1,4 +1,5 @@
-function is_empty(field) //obj->the field object , ele-> the error field
+// To find if the fields in the array is empty
+function is_empty(field)
 	{	var flag = 0 ;
 		for(i = 0; i<field.length; i++) {
 
