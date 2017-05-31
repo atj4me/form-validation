@@ -25,7 +25,7 @@ function is_empty(field)
 		if(flag == 1) { return true; }
 		else { return false; }
 	}
-
+//To check the fields
 function checkfield(fieldID, errCls, condi)
 {
 	var fieldName = $('#'+fieldID);
