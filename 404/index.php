@@ -231,6 +231,7 @@ padding: 4px;
 <div align="center" class="h1text pad100" id="1" ><?=$title?></div>
 <div align="center" class="redtext pad100" id="2"><?=$head?></div>
  <div align="center" class="whitetext pad100" id="3"><?=$content?></div>
+	<?php if($status == '400') { ?>
  <div align="left" class="linktext" ><p>Did you mean.. ?</p>
  	<script>
 	var c = 0;
@@ -268,6 +269,7 @@ foreach($redir as $val){
    <?php } } ?>
    </ul>
   </div>
+	<?php } ?>
 </div>
 
 </body>
