@@ -1,0 +1,5 @@
+ErrorDocument 400 ../errordocs/?status=400
+ErrorDocument 401 ../errordocs/?status=401
+ErrorDocument 403 ../errordocs/?status=403
+ErrorDocument 404 ../errordocs/?status=404
+ErrorDocument 500 ../errordocs/?status=500
