@@ -1,0 +1,2 @@
+This is a function that converts queries written in MSSQL format to MYSQL and execute them. 
+It uses legacy MSSQL AND MYSQL Functions such as mysql_query for backward compatibility. 
